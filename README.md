@@ -12,7 +12,8 @@ The process can be divided into four parts:
 2. **[Processing the Data](fiba_part2_process_data.ipynb)**
 3. **[Finding Additional Metadata](fiba_part3_finding_additional_metadata.ipynb)**
 4. **[Creating, Testing and Comparing Machine Learning Algorithms](fiba_part4_making_algs.ipynb)**
-                                        
+
+**Note: [I've also included a 'sql demo' notebook showcasing some sql-based analysis and (somewhat) complicated querying of the fiba europe files](fiba_europe_sql_demo.ipynb)**
 
 ## Process Overview
 
