@@ -16,7 +16,9 @@ The process can be divided into four parts:
 **Extra SQL DEMO:** I've also included a 'sql demo' notebook showcasing some sql-based analysis and (somewhat) complicated querying of the fiba europe files. 
 
 It's somewhat difficult/hacky to get the sql syntax to render properly on github/nbviewer. I've found the best option is via binder. Links are below:
-* [Notebook in Binder (you may have to click on a cell to get the sql syntax to render properly)](https://mybinder.org/v2/gh/insho/fiba-europe-basketball-project/60e25054b101c3166b6378d8b1768ad3680efe6a)
+* Notebook in Binder (you may have to click on a cell to get the sql syntax to render properly)]
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/insho/fiba-europe-basketball-project/master?filepath=fiba_europe_sql_demo.ipynb)
+
 * [Another, less pretty option, in nbviewer](https://nbviewer.jupyter.org/github/insho/fiba-europe-basketball-project/blob/master/fiba_europe_sql_demo.ipynb) 
 * [Or the least pretty of all, on github](fiba_europe_sql_demo.ipynb)
 
