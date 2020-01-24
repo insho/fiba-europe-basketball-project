@@ -2,7 +2,7 @@
 Data analysis and machine learning with fiba europe basketball play-by-play files
 
 
-The Project:
+## The Project:
 
 To better understand both predictive modeling using machine learning, as well as some basics about building react web apps, build predictive models using publicly available play by play data for Fiba Europe basketball games, and display some info/results about those findings here, in a react web app. Besides a variety of fun statistics, the end result should be algorythms that predict outcomes of a given game based on play by play information from the same game (at any given minute during the match). 
 
@@ -13,7 +13,12 @@ The process can be divided into four parts:
 3. **[Finding Additional Metadata](fiba_part3_finding_additional_metadata.ipynb)**
 4. **[Creating, Testing and Comparing Machine Learning Algorithms](fiba_part4_making_algs.ipynb)**
 
-**Note: [I've also included a 'sql demo' notebook showcasing some sql-based analysis and (somewhat) complicated querying of the fiba europe files](fiba_europe_sql_demo.ipynb)**
+**Extra SQL DEMO:** I've also included a 'sql demo' notebook showcasing some sql-based analysis and (somewhat) complicated querying of the fiba europe files. 
+
+It's somewhat difficult/hacky to get the sql syntax to render properly on github/nbviewer. I've found the best option is via binder. Links are below:
+* [Notebook in Binder (you may have to click on a cell to get the sql syntax to render properly)](https://mybinder.org/v2/gh/insho/fiba-europe-basketball-project/60e25054b101c3166b6378d8b1768ad3680efe6a)
+* [Another, less pretty option, in nbviewer](https://nbviewer.jupyter.org/github/insho/fiba-europe-basketball-project/blob/master/fiba_europe_sql_demo.ipynb) 
+* [Or the least pretty of all, on github](fiba_europe_sql_demo.ipynb)
 
 ## Process Overview
 
