@@ -16,13 +16,34 @@ The process can be divided into four parts:
 
 **Extra SQL DEMO:** 
 
-'ve also included a 'sql demo' notebook showcasing some sql-based analysis and (somewhat) complicated querying of the fiba europe files. 
+I've also included a 'sql demo' notebook showcasing some sql-based analysis and (somewhat) complicated querying of the fiba europe files. 
 
-It's somewhat difficult/hacky to get the sql syntax to render properly on github/nbviewer. I've found the best option is via binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/insho/fiba-europe-basketball-project/master?filepath=fiba_europe_sql_demo.ipynb). Links are below:
-* [Notebook in Binder (you may have to click on a cell to get the sql syntax to render properly)](https://mybinder.org/v2/gh/insho/fiba-europe-basketball-project/master?filepath=fiba_europe_sql_demo.ipynb)
+It's not particularly easy to get sql syntax to render properly in an ipython notebook on github. I've found the best option is to launch the notebook via binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/insho/fiba-europe-basketball-project/master?filepath=fiba_europe_sql_demo.ipynb). 
 
-* [Another, less pretty option, in nbviewer](https://nbviewer.jupyter.org/github/insho/fiba-europe-basketball-project/blob/master/fiba_europe_sql_demo.ipynb) 
-* [Or the least pretty of all, on github](fiba_europe_sql_demo.ipynb)
+Here's the best way to do it:
+* [Launch the notebook in Binder](https://mybinder.org/v2/gh/insho/fiba-europe-basketball-project/master?filepath=fiba_europe_sql_demo.ipynb)
+* Click on the cell with the javasript snippet, that looks like so:
+    ```javascript
+    require(['notebook/js/codecell'], function(codecell) {
+    codecell.CodeCell.options_default.highlight_modes['magic_text/x-mssql'] = {'reg':[/^%%sql/]} ;
+    Jupyter.notebook.events.one('kernel_ready.Kernel', function(){
+    Jupyter.notebook.get_cells().map(function(cell){
+        if (cell.cell_type == 'code'){ cell.auto_highlight(); } }) ;
+    ```
+and press CTR+ENTER (or CMD+ENTER) to run the cell
+* Then, if you click on any of the subsequent cells which contain sql code, the syntax should transform into the proper sql highlighting, etc.
+
+
+Other, Less Fun Options:
+* [nbviewer works, but won't highlight syntax](https://nbviewer.jupyter.org/github/insho/fiba-europe-basketball-project/blob/master/fiba_europe_sql_demo.ipynb) 
+* [Github maaay work, but sometimes fails to load](fiba_europe_sql_demo.ipynb)  
+
+
+## Web App
+
+In addition to this, I have created a web app to both visualize and better explain my Fiba basketball machine learning project. Besides a nice companion to the machine learning project, it was an excellent opportunity to gain some experience building and deploying a react web app for the first time.
+
+**[The app is hosted here](http://fiba-app-dot-bold-vortex-250420.appspot.com/welcome)**
 
 
 ## Process Overview
