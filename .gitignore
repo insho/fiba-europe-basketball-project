@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# tmp file
+fiba_part4b_tmp.ipynb
